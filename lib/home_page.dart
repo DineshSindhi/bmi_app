@@ -79,13 +79,13 @@ class _HomePageState extends State<HomePage> {
                 sum= no1/pow(height, 2);
                 if(sum>25){
                   result= 'BMI is ${sum.toStringAsFixed(2)}\n''High';
-                  mImages='assets/images/we.png';
+                  mImages='assets/images/over_weight.jpeg';
                 } else if(sum<18){
                   result= 'BMI is ${sum.toStringAsFixed(2)}\nlow';
-                  mImages='assets/images/patla.png';
+                  mImages='assets/images/under_weight.jpg';
                 }else{
                   result = 'BMI is ${sum.toStringAsFixed(2)}\nperfect';
-                  mImages='assets/images/fit.png';
+                  mImages='assets/images/fit.jpeg';
 
                 }
                 setState(() {
